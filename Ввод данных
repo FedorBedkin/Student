@@ -1,0 +1,51 @@
+#include <stdio.h>
+//если работаешь не на mac внизу убери 2 слэш
+//#include <stdlib.h>
+#include <stdbool.h>
+
+int main(){
+	
+	//const неизменяемое значение
+	
+	float x, y, res;
+	scanf("%f", &x);
+	scanf("%f", &y);
+	
+   res = x / y;
+	printf("Result: %.2f\n", res);
+	
+	char s = 'S';
+	printf("%c\n", s);
+	
+	// правда или ложь
+	//bool isHasCar = true;
+
+	// -32 768 - 32 768
+	//short s = 500;
+	
+	// 0 - 64 000
+	//unsigned short a = 5;
+	// -2 млн - 2 млн
+	//int x = 8, y = 20, res;
+	
+	// 0 - 4 млн
+	//unsigned int a1 = 6;
+	
+	// больше чем у int в 2 раз
+	//long a2 = 5;
+	
+	// для не целых чисел
+	//float a6 = 4.5f;
+	//double a7 = 5.6545447883736f;
+	
+	// присвоение символа
+	//char sym = '7';
+	
+	//res = x + y;
+	//printf("Variable: %d + %d = %d\n", x, y, res);
+
+    //если работаешь не на mac внизу убери 2 слэш
+    //system("pause");
+    return 0;
+
+}
