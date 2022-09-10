@@ -1,0 +1,9 @@
+#include <stdio.h>
+//если работаешь не на mac внизу убери 2 слэш
+//#include <stdlib.h>
+int main(){
+printf("Hello, world!\n");
+    //если работаешь не на mac внизу убери 2 слэш
+    //system("pause");
+    return 0;
+}
