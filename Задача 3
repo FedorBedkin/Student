@@ -1,0 +1,28 @@
+//Bedkin Fedor, RUDN, NBIbd-03-22
+
+#include <math.h>
+#include <stdio.h>
+
+//Вычислить длины медиан треугольника по длинам его сторон
+
+int main(){
+	
+	float a, b, c, a1, b1, c1;
+	
+	printf("Программа вычисления длин медиан треугольника со сторонами a, b и c\n");
+	
+	printf("Введите a, b, c\n");
+	
+	scanf("%f%f%f", &a, &b, &c);
+	
+	a1 = 0.5 * sqrt(2*pow(a,2)+2*pow(b,2)-pow(c,2));
+	b1 = 0.5 * sqrt(2*pow(b,2)+2*pow(c,2)-pow(a,2));
+	c1 = 0.5 * sqrt(2*pow(c,2)+2*pow(a,2)-pow(b,2));
+	
+	printf("Медиана треугольника к стороне a1= %6.2f\n", a1);
+   printf("Медиана треугольника к стороне b1= %6.2f\n", b1);
+   printf("Медиана треугольника к стороне c1= %6.2f\n", c1); 
+   
+    return 0;
+
+}
